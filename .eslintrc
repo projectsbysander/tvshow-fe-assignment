@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "@next/next/no-document-import-in-page": "off",
+    "@next/next/no-img-element": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
+}
