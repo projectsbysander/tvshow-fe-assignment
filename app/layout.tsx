@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en'>
+    <html lang='en' className='h-full'>
       <head>
         <link
           rel='apple-touch-icon'
@@ -56,8 +56,11 @@ export default function RootLayout({
           ['--primary-font' as any]: primary.style.fontFamily,
           ['--secondary-font' as any]: secondary.style.fontFamily,
         }}
+        className='h-full scroll-smooth bg-black font-secondary text-primary'
       >
-        <main className={`h-full w-full ${secondary.className}`}>
+        <main
+          className={`flex h-full w-full flex-col p-5 ${secondary.className}`}
+        >
           {children}
         </main>
       </body>
