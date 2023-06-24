@@ -8,4 +8,6 @@ export interface ShowType {
   language: string
   genres: string[]
   image: ImageProps
+  show: ShowType
+  rating: { average: number }
 }

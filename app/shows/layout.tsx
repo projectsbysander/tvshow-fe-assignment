@@ -1,4 +1,3 @@
-import { ShowsProvider } from '@_context/ShowsContext'
 import { ShowsHeader as Header } from '@_ui'
 
 export const metadata = {
@@ -14,10 +13,5 @@ export default function ShowsLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <ShowsProvider>
-      <Header />
-      {children}
-    </ShowsProvider>
-  )
+  return <div>{children}</div>
 }

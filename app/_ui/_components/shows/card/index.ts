@@ -1,1 +1,1 @@
-export { default as ShowCard } from './card'
+export { default as ShowsCard } from './card'

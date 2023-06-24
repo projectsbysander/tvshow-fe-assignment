@@ -11,7 +11,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     return (
       <input
         className={cn(
-          'h-[3.75rem] rounded-full border-none bg-transparent px-5 text-base text-primary hover:shadow-lg focus:outline-none active:outline-none',
+          'h-10 w-full border-b border-white bg-transparent text-base text-primary hover:shadow-lg focus:outline-none active:outline-none',
           className
         )}
         type={type}

@@ -2245,6 +2245,11 @@ tailwind-merge@^1.13.2:
   resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-1.13.2.tgz#1d06c9e95ffda2320efc50ed33c65be0cda23091"
   integrity sha512-R2/nULkdg1VR/EL4RXg4dEohdoxNUJGLMnWIQnPKL+O9Twu7Cn3Rxi4dlXkDzZrEGtR+G+psSXFouWlpTyLhCQ==
 
+tailwindcss-animation-delay@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/tailwindcss-animation-delay/-/tailwindcss-animation-delay-1.0.7.tgz#7ba82fdc99f2cf67e38754352d955a08dd573265"
+  integrity sha512-nJIQGJ7zePh7FiLFiZJOi7Vo+dRo+2Tqt8BRFa9yk8um0OFpuD7K3i8bZaNO3C8qMxdv0Y7YlHtCZq4/ydok9A==
+
 tailwindcss-filters@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/tailwindcss-filters/-/tailwindcss-filters-3.0.0.tgz#d5d40ca018a54b1aa2bdc57aeb6677529c24c8d8"

@@ -1,7 +1,8 @@
+import { ShowsHeader } from '@_ui'
 import './globals.css'
-import { Montserrat } from '@next/font/google'
+import { Inter, Montserrat } from '@next/font/google'
 
-const primary = Montserrat({
+const primary = Inter({
   subsets: ['latin'],
   weight: ['200', '400'],
   variable: '--primary-font',
@@ -9,7 +10,7 @@ const primary = Montserrat({
 
 const secondary = Montserrat({
   subsets: ['latin'],
-  weight: '400',
+  weight: ['400', '500', '600', '700'],
   variable: '--secondary-font',
 })
 
@@ -61,6 +62,7 @@ export default function RootLayout({
         <main
           className={`flex h-full w-full flex-col p-5 ${secondary.className}`}
         >
+          <ShowsHeader />
           {children}
         </main>
       </body>

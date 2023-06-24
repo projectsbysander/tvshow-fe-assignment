@@ -26,6 +26,7 @@ export const ShowsContext = createContext<ShowsContextProps>({
 
 const ShowsProvider = ({ children }: { children: ReactNode }) => {
   const [wishlist, setWishlist] = useState<number[]>([])
+  const [search, setSearch] = useState('')
 
   const {
     data: shows,
@@ -54,7 +55,7 @@ const ShowsProvider = ({ children }: { children: ReactNode }) => {
   )
 
   if (error) return <div>Failed to load</div>
-  if (loading) return <div>Loading...</div>
+  if (loading) return <div>Loading shows...</div>
 
   return <ShowsContext.Provider value={store}>{children}</ShowsContext.Provider>
 }

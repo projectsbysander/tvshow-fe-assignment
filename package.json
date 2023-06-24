@@ -24,6 +24,7 @@
     "react-icons": "^4.10.0",
     "swr": "^2.2.0",
     "tailwind-merge": "^1.13.2",
+    "tailwindcss-animation-delay": "^1.0.7",
     "typescript": "5.0.2"
   },
   "devDependencies": {

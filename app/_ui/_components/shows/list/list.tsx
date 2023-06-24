@@ -1,7 +1,8 @@
 'use client'
 import React, { FC } from 'react'
-import { ShowCard } from '../card'
+import { ShowsCard } from '../card'
 import { ShowType } from '@_types'
+import { Rating } from '@_ui/_components/common/rating'
 
 interface ListProps {
   genre: string
@@ -11,14 +12,16 @@ interface ListProps {
 const List: FC<ListProps> = ({ genre, list }) => {
   return (
     <div>
-      <h3>{genre}</h3>
-      <div className='flex max-w-full gap-4 overflow-auto py-4'>
-        {list.map((show) => (
-          <ShowCard
+      <h3 className='h-10'>{genre}</h3>
+      <div className='flex max-w-full gap-4 overflow-auto overflow-y-hidden py-4'>
+        {list.map((show, i: number) => (
+          <ShowsCard
             key={show.id}
             href={`/show/${show.id}`}
-            image={{ src: show.image.medium, alt: show.name }}
-          />
+            image={{ ...show.image, alt: show.name }}
+          >
+            <Rating rate={show.rating.average} />
+          </ShowsCard>
         ))}
       </div>
     </div>

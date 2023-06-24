@@ -20,7 +20,7 @@
 
   h3,
   .h3 {
-    @apply font-primary text-xl font-bold md:text-2xl mb-4;
+    @apply font-primary text-xl font-bold md:text-2xl mb-2;
   }
 
   h4,
@@ -33,7 +33,7 @@
   }
 
   p {
-    @apply max-w-4xl mb-8;
+    @apply max-w-3xl;
   }
 
 }
@@ -41,6 +41,15 @@
 html,
 body {
   min-height: -webkit-fill-available;
+}
+
+.animate-fadeUpSm {
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.animate-fill-none {
+  animation-fill-mode: none;
 }
 
 ::-webkit-scrollbar {
