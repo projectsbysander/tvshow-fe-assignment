@@ -39,7 +39,7 @@ const Card: FC<CardProps> = ({
           priority
           width={295}
           height={210}
-          className='relative z-10 h-full w-full overflow-hidden object-cover opacity-90 duration-500 group-hover:scale-105 group-hover:opacity-100'
+          className='relative z-10 h-full w-full overflow-hidden object-cover duration-500 group-hover:scale-105 group-hover:opacity-100 md:opacity-90'
         />
         <div className='absolute bottom-3 left-3 z-10 text-white'>
           {children}

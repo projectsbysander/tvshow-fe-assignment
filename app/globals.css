@@ -41,6 +41,7 @@
 html,
 body {
   min-height: -webkit-fill-available;
+  font-size: 1rem !important;
 }
 
 .animate-fadeUpSm {
@@ -66,7 +67,7 @@ body {
 
 @media screen and (max-width: 900px) {
   html, body {
-    font-size: 1rem !important;
+    font-size: 0.875rem !important;
   }
   .overflow-auto::-webkit-scrollbar, .overflow-y-auto::-webkit-scrollbar {
     display: none;

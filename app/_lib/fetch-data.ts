@@ -11,7 +11,7 @@ export const fetchData = async (path: string, ...args: any) => {
 
     return res.json()
   } catch (e) {
-    console.log(e)
+    console.error(e)
   }
 }
 
