@@ -6,7 +6,7 @@ import { Search } from '@_ui'
 const Header = () => {
   return (
     <header className='sticky top-0 z-50 flex h-20 min-h-[5rem] items-center justify-between gap-4'>
-      <Link href='/'>
+      <Link href='/' aria-label='Logo'>
         <Image
           src='/logo.svg'
           alt='logo'

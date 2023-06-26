@@ -22,8 +22,12 @@ const Search = (props: {}) => {
         ref={ref}
         {...props}
       />
-      <button type='submit'>
-        <FaSearch className='absolute right-3 top-1/2 -translate-y-1/2 text-white' />
+      <button type='submit' aria-label='Search'>
+        <FaSearch
+          aria-hidden='true'
+          focusable='false'
+          className='absolute right-3 top-1/2 -translate-y-1/2 text-white'
+        />
       </button>
     </form>
   )
