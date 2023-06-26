@@ -1,10 +1,10 @@
 import { fetchData } from '@_lib'
-import { NextRoute, WithChildren } from '@_types'
+import { WithChildren } from '@_types'
 import { Metadata } from 'next'
 import { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 
 export async function generateMetadata(
-  { params }: NextRoute,
+  { params }: any,
   _: ResolvingMetadata
 ): Promise<Metadata> {
   const show = await fetchData(`shows/${params.id}`)
