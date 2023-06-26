@@ -1,3 +1,4 @@
+import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
 import { redirect } from 'next/navigation'
 import Search from './search'

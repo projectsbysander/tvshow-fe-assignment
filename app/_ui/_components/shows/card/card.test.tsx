@@ -1,3 +1,4 @@
+import React from 'react'
 import { RouterContext } from 'next/dist/shared/lib/router-context'
 import { render, screen, fireEvent } from '@testing-library/react'
 import Card from './card'

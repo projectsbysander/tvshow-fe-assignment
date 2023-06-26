@@ -6,5 +6,8 @@ module.exports = {
     '@_types(.*)': '<rootDir>/app/_types/$1',
     '@_ui(.*)': '<rootDir>/app/_ui/$1',
   },
+  transform: {
+    '^.+\\.(t|j)sx?$': '@swc/jest',
+  },
   testEnvironment: 'jest-environment-jsdom',
 }

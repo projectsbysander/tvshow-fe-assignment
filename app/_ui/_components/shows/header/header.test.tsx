@@ -1,3 +1,4 @@
+import React from 'react'
 import { RouterContext } from 'next/dist/shared/lib/router-context'
 import { render, fireEvent } from '@testing-library/react'
 import Header from './header'
