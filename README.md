@@ -51,7 +51,7 @@ The following is enphasized to ensure accessibility:
 
 ## Additional features
 
-I've added a wishlist so users can search for shows and save them if they want to watch them later. Also, I added a search component for filtering shows.
+I've added a wishlist so users can search for shows and save them if they want to watch them later.
 
 ## Requirements
 
