@@ -1,4 +1,4 @@
-import { fetchData } from '@_lib/fetch-data'
+import { fetchData } from '@_lib'
 import { NextRoute, WithChildren } from '@_types'
 import { Metadata } from 'next'
 

@@ -1,4 +1,3 @@
-'use client'
 import React, { FC } from 'react'
 import { ShowsCard } from '../card'
 import { ShowType } from '@_types'
@@ -14,7 +13,7 @@ const List: FC<ListProps> = ({ genre, list }) => {
     <div>
       <h3 className='h-10'>{genre}</h3>
       <div className='flex max-w-full gap-4 overflow-auto overflow-y-hidden py-4'>
-        {list.map((show, i: number) => (
+        {list.map((show) => (
           <ShowsCard
             key={show.id}
             href={`/show/${show.id}`}

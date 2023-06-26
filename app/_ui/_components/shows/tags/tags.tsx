@@ -3,8 +3,10 @@ import { Bullet } from '@_ui/_components/common/bullet'
 import { Rating } from '@_ui/_components/common/rating'
 import React from 'react'
 
-interface Tag extends ShowType {
+interface Tag {
   premiered: string
+  rating: { average: number }
+  genres: string[]
 }
 
 const tags = ({ rating, premiered, genres }: Tag) => {

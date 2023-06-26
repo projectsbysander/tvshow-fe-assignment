@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { ShowsList } from '../list'
-import { getWishlist } from '@_lib/storage'
+import { getWishlist } from '@_lib'
 import { ShowType } from '@_types'
 
 const Wishlist = ({ shows }: { shows: ShowType[] }) => {

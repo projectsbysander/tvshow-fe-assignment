@@ -1,8 +1,8 @@
 import React from 'react'
 import { ShowsList } from '../list'
-import { fetchData } from '@_lib/fetch-data'
 import { ShowType } from '@_types'
 import { Wishlist } from '../wishlist'
+import { fetchData } from '@_lib'
 
 const Shows = async ({ search }: { search: string }) => {
   const shows: ShowType[] = await fetchData(

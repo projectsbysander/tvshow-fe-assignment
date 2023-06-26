@@ -1,4 +1,4 @@
-import { fetchData } from '@_lib/fetch-data'
+import { fetchData } from '@_lib'
 import { ShowActions, ShowTag, StarredActors } from '@_ui'
 import { ShowCover } from '@_ui/_components/shows/cover'
 

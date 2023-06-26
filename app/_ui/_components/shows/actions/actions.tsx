@@ -1,5 +1,5 @@
 'use client'
-import { getWishlist, updateWishlist } from '@_lib/storage'
+import { getWishlist, updateWishlist } from '@_lib'
 import { Button } from '@_ui/_components/common/button'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
