@@ -1,3 +1,2 @@
-Sitemap: https://tvshows-three.vercel.app//sitemap.xml
 User-agent: *
 Disallow:
