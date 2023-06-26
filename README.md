@@ -3,7 +3,7 @@
 In this repo you'll find a Nextjs app that allows users to view TV shows and its details based on different genres and rates.
 
 <p>
-  <a href="https://passwords-7oqj.vercel.app/">Watch the demo here</a>
+  <a href="https://tvshows-three.vercel.app/">Watch the demo here</a>
 </p>
 
 ## tech
@@ -49,4 +49,31 @@ The following is enphasized to ensure accessibility:
 - Optimized Lighthouse
 - In accordance with WCAG
 
-## Steps to get started
+## Requirements
+
+- Node.js 16+ and npm/yarn
+
+## Getting started
+
+Run the following command on your local environment:
+
+```shell
+git clone git@github.com:projectsbysander/tvshow-fe-assignment.git
+cd tvshow-fe-assignment
+```
+
+Then, you can install and run locally in development mode with live reload:
+
+```shell
+npm install
+npm run dev
+```
+
+Or when using yarn:
+
+```shell
+yarn install
+yarn dev
+```
+
+Open http://localhost:3000 to see this project.
