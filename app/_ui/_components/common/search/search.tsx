@@ -2,14 +2,15 @@
 import React, { FormEvent, useRef } from 'react'
 import { Input } from '@_ui'
 import { FaSearch } from 'react-icons/fa'
-import { redirect } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 
 const Search = (props: {}) => {
   const ref = useRef<HTMLInputElement>(null)
+  const router = useRouter()
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault()
-    redirect(
+    router.push(
       ref.current?.value ? `/shows?search=${ref.current.value}` : '/shows'
     )
   }
